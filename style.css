@@ -1,0 +1,106 @@
+ 
+    
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(45deg,#3de8ff,#ad41ff);
+    }
+
+    .con{
+        border: 2px solid #c165bd;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 19px rgb(163, 235, 174);
+        margin: 20px;
+        background: linear-gradient(to Right,rgba(255, 1, 179, 0.3),rgba(90, 255, 115, 0.3));
+        width: 250px;
+    }
+    input{
+        width: 220px;
+        font-size: 1rem;
+        font-weight: 200;
+        padding: 16px;
+      margin-bottom: 10px;
+        background: transparent;
+        border: none;
+        box-shadow: 0 0 65px rgb(23, 29, 215);
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        cursor: text;
+      
+    }
+    input:focus{
+        outline: none;
+    }
+    input::placeholder{
+        color: white;
+    }
+    button{
+        cursor: pointer;
+        background: none;
+        border: none;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+       margin-top: 20px;
+       margin-left: 40px;
+       margin-right: 2px;
+        box-shadow: 0 0 20px rgb(186, 40, 40);
+   display: inline-block;
+        color: white;
+        background: linear-gradient(50deg,rgba(255, 0, 242, 0.6),rgba(16, 250, 39, 0.6));
+    }
+p{
+    color: white;
+    background:linear-gradient(45deg,rgba(149, 67, 67, 0.6),rgba(236, 34, 251, 0.6));
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 20px;
+   text-align: center;
+   box-shadow: 0 0 15px  rgb(239, 56, 56);
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   cursor: pointer;
+}
+h1{
+    margin: 10px;
+    text-shadow: 0 0 16px rgb(0, 0, 0);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+
+
+}
+.box{
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#0a032a,#1a3a2a);
+    font-stretch: narrower;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 40px palevioletred;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    display: none;
+}
+.box h1{
+    font-size: 20px;
+    text-align: center;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    display: none;
+}
